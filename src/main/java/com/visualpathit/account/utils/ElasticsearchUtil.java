@@ -43,3 +43,4 @@ public class ElasticsearchUtil {
         return client;
     }
 }
+

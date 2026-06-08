@@ -16,3 +16,4 @@ public class AuthenticationFailureHandler extends SimpleUrlAuthenticationFailure
         getRedirectStrategy().sendRedirect(request, response, "/login?error");
     }
 }
+

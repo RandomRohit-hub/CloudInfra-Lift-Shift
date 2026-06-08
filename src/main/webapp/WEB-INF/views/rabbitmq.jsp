@@ -33,3 +33,4 @@
     <h3><%= channels %> Channels, <%= exchange %> Exchange, and <%= queues %> Queues</h3>
 </body>
 </html>
+

@@ -26,3 +26,4 @@ public class GlobalExceptionHandler {
         return "forward:/WEB-INF/views/error/500.jsp";
     }
 }
+
