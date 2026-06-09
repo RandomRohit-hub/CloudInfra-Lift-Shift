@@ -1,5 +1,5 @@
 #!/bin/bash
-DATABASE_PASS='admin123'
+DATABASE_PASS='YOUR_DB_PASSWORD'
 sudo dnf update -y
 sudo dnf install git zip unzip -y
 sudo dnf install mariadb105-server -y
@@ -16,8 +16,8 @@ sudo mysql -u root -p"$DATABASE_PASS" -e "DELETE FROM mysql.user WHERE User=''"
 sudo mysql -u root -p"$DATABASE_PASS" -e "DELETE FROM mysql.db WHERE Db='test' OR Db='test\_%'"
 sudo mysql -u root -p"$DATABASE_PASS" -e "FLUSH PRIVILEGES"
 sudo mysql -u root -p"$DATABASE_PASS" -e "create database accounts"
-sudo mysql -u root -p"$DATABASE_PASS" -e "grant all privileges on accounts.* TO 'admin'@'localhost' identified by 'admin123'"
-sudo mysql -u root -p"$DATABASE_PASS" -e "grant all privileges on accounts.* TO 'admin'@'%' identified by 'admin123'"
+sudo mysql -u root -p"$DATABASE_PASS" -e "grant all privileges on accounts.* TO 'admin'@'localhost' identified by 'YOUR_DB_PASSWORD'"
+sudo mysql -u root -p"$DATABASE_PASS" -e "grant all privileges on accounts.* TO 'admin'@'%' identified by 'YOUR_DB_PASSWORD'"
 sudo mysql -u root -p"$DATABASE_PASS" accounts < /tmp/vprofile-project/src/main/resources/db_backup.sql
 sudo mysql -u root -p"$DATABASE_PASS" -e "FLUSH PRIVILEGES"
 
@@ -33,10 +33,10 @@ sudo mysql -u root -p"$DATABASE_PASS" -e "FLUSH PRIVILEGES"
 # exec > >(tee /var/log/user-data.log)
 # exec 2>&1
 
-# DATABASE_PASS="admin123"
+# DATABASE_PASS="YOUR_DB_PASSWORD"
 # DB_NAME="accounts"
 # DB_USER="admin"
-# DB_USER_PASS="admin123"
+# DB_USER_PASS="YOUR_DB_PASSWORD"
 
 # echo "Starting DB Server Configuration..."
 
@@ -120,4 +120,4 @@ sudo mysql -u root -p"$DATABASE_PASS" -e "FLUSH PRIVILEGES"
 # echo "Database setup completed successfully."
 # echo "DB Name: accounts"
 # echo "DB User: admin"
-# echo "DB Password: admin123"
+# echo "DB Password: YOUR_DB_PASSWORD"
