@@ -178,7 +178,7 @@
 
                       <c>
                           <a href="${contextPath}/users" class="btn btn-success">All Users</a>
-                          <a href="${contextPath}/rabbit" class="btn btn-success">RabbitMq</a>
+                          <a href="${contextPath}/user/rabbit" class="btn btn-success">RabbitMq</a>
                           <a href="#" class="btn btn-success">Elasticsearch</a>
                       </c>
 
@@ -522,3 +522,4 @@ $(function () {
 
 </body>
 </html>
+

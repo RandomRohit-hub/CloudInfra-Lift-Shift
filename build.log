@@ -1,0 +1,84 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.visualpathit:vprofile[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Visualpathit VProfile Webapp v2[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mvprofile[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/roots/Desktop/proj1/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mvprofile[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 5 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mvprofile[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding [1mUTF-8[m, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 25 source files with javac [debug target 17] to target/classes
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[6,23] package org.apache.http does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[7,39] package org.elasticsearch.action.delete does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[8,39] package org.elasticsearch.action.delete does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[9,36] package org.elasticsearch.action.get does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[10,36] package org.elasticsearch.action.get does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[11,38] package org.elasticsearch.action.index does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[12,38] package org.elasticsearch.action.index does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[13,39] package org.elasticsearch.action.update does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[14,39] package org.elasticsearch.action.update does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[15,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[16,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[17,41] package org.elasticsearch.common.xcontent does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[18,41] package org.elasticsearch.common.xcontent does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/UserController.java:[15,24] package javax.validation does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[6,23] package org.apache.http does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[7,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[8,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[9,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[25,19] cannot find symbol
+  symbol:   class RestHighLevelClient
+  location: class com.visualpathit.account.utils.ElasticsearchUtil
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/UserController.java:[41,61] cannot find symbol
+  symbol:   class Valid
+  location: class com.visualpathit.account.controller.UserController
+[[1;34mINFO[m] 20 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.146 s
+[[1;34mINFO[m] Finished at: 2026-06-09T04:56:21+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m on project [36mvprofile[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[6,23] package org.apache.http does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[7,39] package org.elasticsearch.action.delete does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[8,39] package org.elasticsearch.action.delete does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[9,36] package org.elasticsearch.action.get does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[10,36] package org.elasticsearch.action.get does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[11,38] package org.elasticsearch.action.index does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[12,38] package org.elasticsearch.action.index does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[13,39] package org.elasticsearch.action.update does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[14,39] package org.elasticsearch.action.update does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[15,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[16,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[17,41] package org.elasticsearch.common.xcontent does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[18,41] package org.elasticsearch.common.xcontent does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/UserController.java:[15,24] package javax.validation does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[6,23] package org.apache.http does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[7,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[8,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[9,32] package org.elasticsearch.client does not exist
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[25,19] cannot find symbol
+[[1;31mERROR[m]   symbol:   class RestHighLevelClient
+[[1;31mERROR[m]   location: class com.visualpathit.account.utils.ElasticsearchUtil
+[[1;31mERROR[m] /home/roots/Desktop/proj1/src/main/java/com/visualpathit/account/controller/UserController.java:[41,61] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Valid
+[[1;31mERROR[m]   location: class com.visualpathit.account.controller.UserController
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

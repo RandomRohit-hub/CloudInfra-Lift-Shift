@@ -24,7 +24,7 @@ public class RoleTest {
     	User user = new User();
         user.setId(1L);
         user.setUsername("Wahidkhan74");
-        user.setPassword("testpassword123");
+        user.setPassword("Wahidkhan74");
         user.setUserEmail("XXXXX@gmail.com");
         
     	Set<User> users = new HashSet<User>();    	
